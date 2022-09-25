@@ -12,13 +12,15 @@
     <h1>Construindo um controle de estoque</h1>
     <h1>Construindo um controle de estoque</h1>
     <strong>Construindo um controle de estoque</strong>
+
     <div id="plot"></div>
     <py-script output="plot">
+
       import matplotlib.pyplot as plt
       import numpy as np
       x= np.random.randn(100)
       y= np.random.randn(100)
-      fig, ax = plt.suplots()
+      fig, ax = plt.subplots()
       ax.scatter(x,y)
       fig
     </py-script>
